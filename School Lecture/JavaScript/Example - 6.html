@@ -1,0 +1,21 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>On Key Down Event</title>
+</head>
+<body>
+    
+    <input type="text" onkeydown="myFunction()">        <!-- "onkeydown" -->
+    <p id="demo"></p>
+
+    <script>
+
+        function myFunction(){
+            document.getElementById("demo").innerHTML = "You Pressed a Key inside the input field.";
+        }
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variable JavaScript</title>
+
+    <script type="text/javascript">
+
+        var a = 33;
+        var b = 10;
+        var c = true;
+        var d = false;
+        var e = "Hello!";
+        var linebreak = "<br>";
+
+    </script>
+
+</head>
+<body>
+
+    <section>
+        <span style="font-size: x-large; text-align: right; color: darkblue; text-decoration: underline;">JavaScript</span>  
+        <br>
+        <script>
+
+            // "+, -, *, /" OPERATIONS.
+            result = a + b;
+            document.write("a + b = " + result);
+            document.write(linebreak);
+
+            // "typeof" CONDITIONS.
+            result = (typeof e == "string" ? "\'e\' is String." : "\'e\' is NOT String.");
+            document.write("Result => " + result + linebreak);
+            
+            // if - else CONDITIONS.
+            var age = 200;
+            if(age > 18){
+                document.write("<b> Qualifies for Driving.</b>");
+            }
+            else    
+                document.write("<b> Does Not Qualifies for Driving.</b>");
+
+            // SWITCH CONDITONS.
+            var grade = 'A';
+            document.write(linebreak + "Entering Switch Block..." + linebreak);
+            switch(grade){
+                case 'A': document.write("Grade: GOOD");    break;
+                case 'B': document.write("Grade: Average");  break;
+                case 'C': document.write("Grade: Barely Passed");  break;
+                case 'D': document.write("Grade: Failed");  break;
+                default : document.write("Unknown Grade");
+            }
+
+        </script>
+    </section>
+
+
+</body>
+</html>
